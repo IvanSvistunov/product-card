@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Title</title>
+</head>
+<body>
+<div id="myModal" class="modal">
+
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="modal-title">Форма обратной связи</p>
+        <form method="" class="modal-form">
+            <div class="client-info">
+                <div>
+                    <label for="name">Имя<span class="red">*</span></label>
+                    <input type="text" id="name" name="name" value="">
+                </div>
+                <div>
+                    <label for="phone">Телефон<span class="red">*</span></label>
+                    <input type="text" id="phone" name="phone" value="">
+                </div>
+                <div>
+                    <label for="email">E-mail<span class="red">*</span></label>
+                    <input type="text" id="email" name="email" value="">
+                </div>
+            </div>
+            <div class="client-message">
+                <label for="message">Хочу сообщить дополнительно:</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="send">Отправить</div>
+        </form>
+    </div>
+
+</div>
+
+<div class="product-holder">
+    <div class="product-card" itemscope itemtype="https://schema.org/Product">
+        <div class="product">
+            <div class="shadow"></div>
+            <img itemprop="image" src="product.webp" alt="product" />
+            <div class="image_overlay"></div>
+            <div class="order">Отправить заявку</div>
+            <div class="stats">
+                <div class="stats-container">
+                    <span class="product_name" itemprop="name">Профлист С8 оцинкованный (0,35 мм)</span>
+                    <div class="product-options">
+                        <div class="option" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <strong>Цена</strong>
+                            <p>от <span itemprop="price">270</span> руб / м2</p>
+                        </div>
+                        <div class="option" itemprop="height">
+                            <strong>Длина</strong>
+                            <p>2 - 6 метров</p>
+                        </div>
+                        <div class="option" itemprop="width">
+                            <strong>Ширина</strong>
+                            <p>1200 (мм)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-card" itemscope itemtype="https://schema.org/Product">
+        <div class="product">
+            <div class="shadow"></div>
+            <img itemprop="image" src="product.webp" alt="product" />
+            <div class="image_overlay"></div>
+            <div class="order">Отправить заявку</div>
+            <div class="stats">
+                <div class="stats-container">
+                    <span class="product_name" itemprop="name">Профлист С8 оцинкованный (0,35 мм)</span>
+                    <div class="product-options">
+                        <div class="option" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <strong>Цена</strong>
+                            <p>от <span itemprop="price">270</span> руб / м2</p>
+                        </div>
+                        <div class="option" itemprop="height">
+                            <strong>Длина</strong>
+                            <p>2 - 6 метров</p>
+                        </div>
+                        <div class="option" itemprop="width">
+                            <strong>Ширина</strong>
+                            <p>1200 (мм)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-card" itemscope itemtype="https://schema.org/Product">
+        <div class="product">
+            <div class="shadow"></div>
+            <img itemprop="image" src="./product.webp" alt="product" />
+            <div class="image_overlay"></div>
+            <div class="order">Отправить заявку</div>
+            <div class="stats">
+                <div class="stats-container">
+                    <span class="product_name" itemprop="name">Профлист С8 оцинкованный (0,35 мм)</span>
+                    <div class="product-options">
+                        <div class="option" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <strong>Цена</strong>
+                            <p>от <span itemprop="price">270</span> руб / м2</p>
+                        </div>
+                        <div class="option" itemprop="height">
+                            <strong>Длина</strong>
+                            <p>2 - 6 метров</p>
+                        </div>
+                        <div class="option" itemprop="width">
+                            <strong>Ширина</strong>
+                            <p>1200 (мм)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
